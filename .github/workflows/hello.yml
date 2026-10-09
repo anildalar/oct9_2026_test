@@ -8,8 +8,7 @@ jobs:
     steps:
       - name: Print GitHub Run Number
         run: |
-          echo "GITHUB_RUN_NUMBER = $GITHUB_RUN_NUMBER"
-          echo "Run Number: ${GITHUB_RUN_NUMBER}"
+          echo $GITHUB_RUN_NUMBER
       - name: Anil
         run: |
           echo "Build No >>>>>>>>>>>>>>>>>>>>>${GITHUB_RUN_NUMBER}"
