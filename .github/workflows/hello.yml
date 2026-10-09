@@ -6,6 +6,9 @@ jobs:
   hello1:
     runs-on: ubuntu-latest
     steps:
+      - name: Generate image tag
+        id: meta
+        run: echo "image_tag=t${GITHUB_RUN_NUMBER}" >> "$GITHUB_OUTPUT"
       - name: Anil
         run: |
           echo "Build No >>>>>>>>>>>>>>>>>>>>>${GITHUB_RUN_NUMBER}"
