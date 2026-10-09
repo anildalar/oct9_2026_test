@@ -8,3 +8,8 @@ jobs:
     steps:
       - name: Anil
         run: cat /etc/os-release
+  hello2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sunil
+        run: whoami
