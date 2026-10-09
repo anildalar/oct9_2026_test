@@ -15,7 +15,6 @@ jobs:
           ls -al
           mkdir oct9_2026
           ls -al
-          ll
   # hello2:
   #   runs-on: ubuntu-latest
   #   steps:
