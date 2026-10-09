@@ -15,6 +15,12 @@ jobs:
           ls -al
           mkdir oct9_2026
           ls -al
+          cd  oct9_2026
+      - name: Checkout source code
+        uses: actions/checkout@v4
+      - name: Ls
+        run: |
+          ls -al
   # hello2:
   #   runs-on: ubuntu-latest
   #   steps:
