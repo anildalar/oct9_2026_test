@@ -3,13 +3,8 @@ on:
   push:
   workflow_dispatch:
 jobs:
-  hello:
+  hello1:
     runs-on: ubuntu-latest
-
     steps:
       - name: Say Hi
-        run: echo "Hi Anil! Welcome to GitHub Actions."
-      - name: Next command
         run: whoami
-      - name: Next command
-        run: cat /etc/os-release
