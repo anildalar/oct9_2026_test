@@ -6,4 +6,5 @@ jobs:
   hello1:
     runs-on: ubuntu-latest
     steps:
+      - name: Anil
         run: cat /etc/os-release
