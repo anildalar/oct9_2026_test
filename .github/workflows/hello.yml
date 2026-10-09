@@ -7,9 +7,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Anil
-        run: cat /etc/os-release
-  hello2:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Sunil
-        run: whoami
+        run: |
+          cat /etc/os-release
+          whoami
+          pwd
+          cd
+          ls -al
+          mkdir oct9_2026
+          ls -al
+          ll
+  # hello2:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Sunil
+  #       run: whoami
