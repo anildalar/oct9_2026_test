@@ -8,6 +8,7 @@ jobs:
     steps:
       - name: Anil
         run: |
+          echo "Build No >>>>>>>>>>>>>>>>>>>>>${GITHUB_RUN_NUMBER}"
           cat /etc/os-release
           whoami
           pwd
