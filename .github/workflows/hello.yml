@@ -1,0 +1,11 @@
+name: MyWorkflow1
+on:
+  push:
+  workflow_dispatch:
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Say Hi
+        run: echo "Hi Anil! Welcome to GitHub Actions."
